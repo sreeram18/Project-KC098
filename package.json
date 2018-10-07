@@ -1,0 +1,46 @@
+{
+  "name": "tha",
+  "version": "0.0.1",
+  "engines": {
+    "node": "8.11.4"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": " "
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.3",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.3.5",
+    "nodemailer": "^4.0.1",
+    "openpgp": "^2.5.4",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "pg": "^6.4.0",
+    "pg-hstore": "^2.3.2",
+    "pug": "~2.0.0-beta11",
+    "randomstring": "^1.1.5",
+    "sequelize": "^4.2.1",
+    "serve-favicon": "^2.4.5",
+    "sha1": "^1.1.1",
+    "transformers": "^3.1.0"
+  },
+  "description": "**shield** ========== ***Providing open and free file storage and sharing for everyone in the world using state of the art encryption techniques.***",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}

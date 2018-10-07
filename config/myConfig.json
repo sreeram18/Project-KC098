@@ -1,0 +1,32 @@
+{
+
+    "development": {
+
+        "username": "root",
+
+        "password": "",
+
+        "database": "shield",
+
+        "host": "localhost",
+
+        "dialect": "mysql"
+
+    },
+
+
+    "production": {
+
+      "username": "root",
+
+      "password": "",
+
+      "database": "end",
+
+      "host": "localhost",
+
+      "dialect": "mysql"
+
+    }
+
+}
